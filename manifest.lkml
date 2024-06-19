@@ -1,5 +1,5 @@
 application: explore_assistant {
-  label: "Explore Assistant - sp"
+  label: "sp demo explorem"
   #url: "https://localhost:8080/bundle.js"
   file: "bundle_sp.js"
   entitlements: {
