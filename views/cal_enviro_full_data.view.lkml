@@ -169,10 +169,11 @@ view: cal_enviro_full_data {
     type: string
     sql: ${TABLE}.School ;;
   }
-  # dimension: school_location {
-  #   type: location
-  #   sql: ${school} ;;
-  # }
+  dimension: school_location {
+    type: location
+    sql_latitude: ${latitude} ;;
+    sql_longitude: ${longitude} ;;
+  }
 
   dimension: soc_type {
     type: string
